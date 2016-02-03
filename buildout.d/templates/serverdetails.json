@@ -46,12 +46,6 @@
       "type": "plone",
       "port": "${ports:zope8}",
       "url": "${hosts:zope8}"
-    },
-    {
-      "title": "${sites:zope9}",
-      "type": "plone",
-      "port": "${ports:zope9}",
-      "url": "${hosts:zope9}"
     }
   ]
 }
