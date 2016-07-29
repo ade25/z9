@@ -32,3 +32,4 @@ pip-selfcheck.json
 src/ade25.fabfiles
 var
 !cache_control_assets.conf
+!disable_logging.conf
