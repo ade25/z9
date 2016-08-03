@@ -1,16 +1,10 @@
 {
-  "server": "zope6",
+  "server": "z9",
   "servername": "${hosts:public}",
-  "nginx": "1.7.2",
-  "varnish": "4.0.0",
-  "haproxy": "1.5-dev21",
+  "nginx": "${component-versions:nginx}",
+  "varnish": "${component-versions:varnish}",
+  "haproxy": "${component-versions:haproxy}",
   "sites": [
-    {
-      "title": "${sites:zope1}",
-      "type": "plone",
-      "port": "${ports:zope1}",
-      "url": "${hosts:zope1}"
-    },
     {
       "title": "${sites:zope2}",
       "type": "plone",
@@ -34,12 +28,6 @@
       "type": "plone",
       "port": "${ports:zope6}",
       "url": "${hosts:zope6}"
-    },
-    {
-      "title": "${sites:zope7}",
-      "type": "plone",
-      "port": "${ports:zope7}",
-      "url": "${hosts:zope7}"
     },
     {
       "title": "${sites:zope8}",
