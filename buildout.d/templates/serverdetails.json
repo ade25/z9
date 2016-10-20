@@ -6,6 +6,12 @@
   "haproxy": "${component-versions:haproxy}",
   "sites": [
     {
+      "title": "${sites:zope1}",
+      "type": "plone",
+      "port": "${ports:zope1}",
+      "url": "${hosts:zope1}"
+    },
+    {
       "title": "${sites:zope2}",
       "type": "plone",
       "port": "${ports:zope2}",
@@ -34,6 +40,12 @@
       "type": "plone",
       "port": "${ports:zope6}",
       "url": "${hosts:zope6}"
+    },
+    {
+      "title": "${sites:zope7}",
+      "type": "plone",
+      "port": "${ports:zope7}",
+      "url": "${hosts:zope7}"
     },
     {
       "title": "${sites:zope8}",
