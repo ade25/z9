@@ -18,12 +18,6 @@
       "url": "${hosts:zope2}"
     },
     {
-      "title": "${sites:zope4}",
-      "type": "plone",
-      "port": "${ports:zope4}",
-      "url": "${hosts:zope4}"
-    },
-    {
       "title": "${sites:zope6}",
       "type": "plone",
       "port": "${ports:zope6}",
